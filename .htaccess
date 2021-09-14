@@ -1,0 +1,20 @@
+#order deny,allow
+#deny from all
+#allow from 190.85.243.102
+#allow from 186.183.199.250
+Allow from All
+Options FollowSymLinks
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteCond %{SERVER_PORT} 80
+    RewriteCond %{HTTP_HOST} !=on
+    RewriteRule ^(.*)$ https://www.tecnimastercol.com/$1 [R,L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php?/$1 [L]
+	
+</IfModule> 
+RedirectMatch 403 /\..*$
+<IfModule !mod_rewrite.c>
+    ErrorDocument 404 /index.php
+</IfModule>

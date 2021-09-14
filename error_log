@@ -1,0 +1,26 @@
+[17-May-2020 19:03:59 America/Bogota] PHP Fatal error:  require(): Failed opening required 'email/Exception.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/zdngvzt6kd4f/public_html/application/views/servicios/new_cliente.php on line 4
+[17-May-2020 19:05:13 America/Bogota] PHP Fatal error:  require(): Failed opening required 'email/Exception.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/zdngvzt6kd4f/public_html/application/views/servicios/new_cliente.php on line 4
+[19-Jun-2020 14:47:49 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/DB_query_builder.php on line 303
+[19-Jun-2020 14:49:40 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/drivers/mysqli/mysqli_driver.php on line 307
+[19-Jun-2020 14:52:20 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/drivers/mysqli/mysqli_driver.php on line 307
+[19-Jun-2020 14:54:37 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/DB_query_builder.php on line 296
+[19-Jun-2020 14:57:33 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/drivers/mysqli/mysqli_driver.php on line 307
+[19-Jun-2020 14:59:25 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/DB_query_builder.php on line 2503
+[28-Jun-2020 18:18:24 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/DB_query_builder.php on line 2467
+[28-Jun-2020 18:20:18 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/DB_query_builder.php on line 2342
+[28-Jun-2020 18:22:25 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/DB_query_builder.php on line 2368
+[28-Jun-2020 18:25:30 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/DB_query_builder.php on line 2392
+[28-Jun-2020 18:38:02 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/DB_query_builder.php on line 2467
+[28-Jun-2020 18:45:21 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/DB_query_builder.php on line 2394
+[10-Jul-2020 13:59:00 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/DB_query_builder.php on line 2342
+[10-Jul-2020 14:07:06 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/drivers/mysqli/mysqli_driver.php on line 307
+[10-Sep-2020 15:27:51 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/DB_query_builder.php on line 703
+[18-Sep-2020 11:42:52 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/DB_driver.php on line 1399
+[26-Sep-2020 16:30:50 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/DB_query_builder.php on line 2756
+[26-Sep-2020 16:34:11 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/drivers/mysqli/mysqli_driver.php on line 307
+[01-Oct-2020 11:52:46 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/DB_driver.php on line 1839
+[09-Oct-2020 09:32:13 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/DB_query_builder.php on line 2346
+[09-Oct-2020 09:38:37 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/DB_query_builder.php on line 2442
+[09-Oct-2020 10:22:06 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/DB_query_builder.php on line 2412
+[12-Nov-2020 10:37:20 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/DB_driver.php on line 1538
+[12-Nov-2020 10:39:23 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zdngvzt6kd4f/public_html/system/database/drivers/mysqli/mysqli_driver.php on line 307

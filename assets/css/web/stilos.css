@@ -1,0 +1,596 @@
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('../../fonts/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url('../../fonts/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url('../../fonts/Poppins-ExtraBold.ttf');
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('../../fonts/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../../fonts/Poppins-Regular.otf');
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../../fonts/Montserrat-Bold.otf');
+}
+
+body, .btn,#somos p ,#descripcion p,#beneficios p, .intro-section p, #servicios_tecnicos p, .card .card-body p, .footer h5, #registrarmeModal label, #registrarmeModal p, #blog p {
+    font-family: Poppins-Regular;
+}
+.site-navbar .site-navigation .site-menu > li > a {    
+    font-family: Poppins-Medium;
+}
+.t-corrousel h3, .box-direccion h5, .box-direccion .name, #servicios_tecnicos #pills-tab a, .card .card-body h5, .card-footer {    
+    font-family: Poppins-SemiBold;
+}
+#descripcion h2, #beneficios h2, #somos h2, #servicios_tecnicos h3, #marcas h3, #registrarmeModal h3, p>b {
+    font-family: Poppins-ExtraBold
+}
+.intro-section h6, #somos h3,#descripcion h3,#beneficios h3, #marcas h5, #registrarmeModal h4 {
+    font-family: Poppins-Bold;    
+}
+#promociones_box h3, #blog h3 {
+    font-family: Montserrat-Bold;
+}
+
+.main{
+ 	padding: 40px 0;
+}
+.main input,
+.main input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-center{
+ 	margin-top: 20px;
+ 	
+ 	
+    padding: 10px 40px;
+	background:#009edf;
+	    color: #FFF;
+    text-shadow: none;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+
+}
+span.input-group-addon i {
+    color: #009edf;
+    font-size: 17px;
+}
+@media (min-width: 992px) {
+    .main-center{
+     margin-top: 120px;
+    }
+}
+.logo-login{
+     background-image: url(http://localhost/tecnimasterpw/assets/images/logoTecnimaster2.png);
+    width: 80%;
+    height: 7vw;
+    padding-left: 298px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flt{
+    color: blue!important;
+}
+.imagen-logo{
+    text-align: center;
+}
+
+.logo_big{
+    margin-top: 6.4vw!important;
+    
+}
+.img.back{
+
+-webkit-filter: blur(3px);
+filter: blur(3px);
+
+}
+
+.blog_con{
+    margin-top: -1.8vw;
+    margin-bottom: 1.8vw;
+    
+}
+
+.img-back{
+    filter:brightness(0.95);
+}
+.bgcolor-skyblue {
+    background: #42bff4;
+    color: #fff;
+} 
+.padding20 {
+    padding: 20px 0;
+}
+.cont-action{
+    padding-left: 5vw;
+}
+.action{
+    padding-top: 0.5vw!important;
+}
+.header-top > .container {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.h9 {
+  font-size: 12px;
+}
+.bg-dark {
+    background-color: #5863F8!important;
+    color: white;
+}
+.label-white {
+    color: white!important;
+}
+.sticky-wrapper .site-navbar {
+    background: white;
+}
+.site-navbar .site-navigation .site-menu > li > a {
+    color: #4C4C4C;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15.5px 15.5px;
+}
+.btn-dark, .btn-border-dark:hover {
+    background-color: #000E27;
+    color: white!important;
+}
+.site-navbar .site-navigation .site-menu > li > a.btn-dark {
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+}
+#inicio .intro-section {
+    min-height: 716px;
+}
+#inicio .btn {
+    font-size: 14px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+#inicio .btn-primary {    
+    padding-right: 47.5px;
+    padding-left: 47.5px;
+}
+.btn-primary, .btn-border-dark:hover {
+    background-image: none!important;
+    background-color: #5863F8;
+    color: white;
+    border-color: #5863F8!important;
+}
+.btn-primary, .btn-border-dark {    
+    padding-top: 14.5px!important;
+    padding-bottom: 14.5px!important;
+}
+.t-corrousel h3 {
+    font-size: 42px;
+    color: #000000;
+}
+.t-corrousel h3>strong, .poppins-bold {
+    font-size: 55px;
+}
+.t-corrousel h3>strong, .poppins-bold {
+    font-family: Poppins-ExtraBold!important;
+}
+.intro-section > .container {
+    padding-top: 78px;
+    height: 100%;
+}
+.intro-section h6 {
+    font-size: 16px;
+    color: #5863F8;
+}
+.intro-section:before {
+    background: none;
+}
+.intro-section p {
+    color: #434040;
+    font-size: 14px;
+}
+.intro-section p.label-dark {
+    font-size: 12px;
+}
+.label-dark {
+    color: #0012FF!important;
+}
+.intro-section p.info {
+    font-size: 10px;
+}
+.btn-border-dark, .btn-primary:hover, .btn-primary:active {
+    border: 1px solid #5863F8!important;
+    background-color: white!important;
+    color: #5863F8!important;
+}
+.intro-section, .intro-section .container .row {
+    min-height: 515px;
+}
+.label-linght {
+    font-size: 20px!important;
+    color: #a4a8e6!important;
+}
+#sticky-wrapper.sticky-wrapper.is-sticky>.site-navbar {
+    border-top: 5px solid rgb(88, 99, 248);
+}
+.box-direccion {
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+}
+.box-direccion img {
+    width: 15px;
+    height: 15px;
+}
+.box-direccion h5 {
+    font-size: 18px;
+    color: #000000;
+}
+.box-direccion label {  
+    color: #97919A;
+}
+.box-direccion .name {
+    color: #5863F8;
+}
+#somos p, #descripcion p, #beneficios p {
+    color: #000000;
+}
+#somos h2  {
+    color: #000000;
+    font-size: 50px;
+}
+#descripcion h2, #beneficios h2
+{
+    color: #000000;
+    font-size: 45px;
+}
+#somos h3, #descripcion h3, #beneficios h3  {    
+    color: #5863F8;
+}
+#somos h3, #somos p,  #descripcion h3,  #beneficios h3, .box-direccion label {
+    font-size: 16px;
+}
+#descripcion p,#beneficios p
+{
+    font-size: 14px;
+}
+.btn-primary {
+    text-transform: none!important;
+    letter-spacing: 0px!important;
+}
+#servicios_tecnicos {
+    background-color: #EFEFEF;
+}
+#servicios_tecnicos h3 {
+    font-size: 35px;
+    color: #000000;
+}
+#servicios_tecnicos h1 {
+    font-size: 35px;
+    color: #000000;
+}
+#servicios_tecnicos p {
+    font-size: 14px;
+    color: #434040;
+}
+#servicios_tecnicos #pills-tab a {
+    color: #000000;
+    font-size: 18px;
+    opacity: 0.5;
+    border-bottom: 2px solid #868686;
+    border-radius: 0px;
+}
+#servicios_tecnicos #pills-tab a.active {
+    color: #5863F8;
+    background-color: transparent;
+    border-bottom: 2px solid #5863F8;
+    opacity: 1;
+}
+.card .card-body h5 {
+    color: #000000;
+    font-size: 18px;
+}
+.card .card-body p {
+    color: #434040;
+    font-size: 14px;
+    line-height: 20px;
+}
+#servicios_tecnicos .tab-content {
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0px;
+}
+.card-header {
+    overflow: hidden;
+}
+.card-header img {    
+    transition: transform 0.5s ease-in-out;
+}
+.card:hover {
+    border: 1px solid #5863F8;
+}
+.card:hover img {
+    transform: scale(1.1);
+}
+.card:hover h5 {
+    color: #5863F8;
+}
+.card:hover .card-footer {
+    background: #5863F8;
+}
+.card:hover .card-footer a {
+    color: white!important;
+}
+.card-footer {
+    text-align: center;
+    color: #434040!important;
+    font-size: 14px;
+    background: white;
+}
+.card-footer  a {
+    color: #434040!important;
+}
+#somos {
+    padding-bottom: 5em!important;
+}
+#descripcion
+{
+    padding-bottom: 1em!important; 
+}
+.resaltar
+{
+    font-weight: bold!important;
+}
+#beneficios
+{
+    padding-bottom: 1em!important; 
+}
+#descripcion .container
+{
+    border-bottom: 0.5px groove;
+    padding-bottom: 2em;
+}
+#promociones_box {
+    background-image: url(../../img/web/franja_registrate.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#promociones_box h3 {
+    font-size: 40px;    
+}
+#marcas h5 {
+    color: #5863F8;
+    font-size: 16px;
+}
+#marcas h3 {
+    color: #000000;
+    font-size: 35px;
+}
+.footer {
+    background-color: #000E27;
+}
+.footer h5 {
+    font-size: 18px;
+}
+.footer .input-group input {
+    background: #0E1C36 0% 0% no-repeat padding-box;
+    border-width: 0;
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 15px;
+}
+.footer #btnGroupAddon {
+    border-width: 0;
+    background: #0E1C36 0% 0% no-repeat padding-box;
+    border-radius: 0 50px 50px 0;
+}
+.footer #btnGroupAddon button {
+    background: #0E1C36 0% 0% no-repeat padding-box;
+    border-width: 0;
+    padding: 5px 5px 5px 0px;
+    border-radius: 0 50px 50px 0;
+}
+#inicio .owl-nav {
+    display: none;
+}
+#inicio .owl-dots {
+    left: -285px;
+    transform: rotate(90deg);
+    top: 13%;
+}
+
+.hero-slide .owl-dots .owl-dot > span {
+    border-radius: 50%!important;
+    width: 6.44px!important;
+    height: 6.44px!important;
+    background: #5A5A5A!important;
+}
+.hero-slide .owl-dots .owl-dot.active > span {
+    width: 9.66px!important;
+    height: 9.66px!important;
+    background: #5863F8!important;
+}
+#registrarmeModal label {
+    font-size: 14px;
+    color: #494949;
+}
+#registrarmeModal h4 {
+    font-size: 16px;
+    color: #5863F8;
+}
+#registrarmeModal h3 {
+    font-size: 50px;
+    color: #000000!important;
+}
+#registrarmeModal p {
+    font-size: 16px;
+    color: #000000;
+}
+#registrarmeModal input, #registrarmeModal select {
+    font-size: 12px;
+}
+#registrarmeModal img {
+    height: 95%;
+    width: auto;
+    left: -8rem;
+    bottom: -30px;
+}
+#registrarmeModal .small {
+    font-size: 13px;
+    color: #434040;
+}
+#registrarmeModal .close {
+    right: 2rem;
+    top: 2rem;
+}
+#blog .intro-section {
+    height: 38vh;
+    min-height: 38vh;
+}
+#blog .intro-section .row {
+    height: 212px;
+    min-height: 212px;
+}
+#blog h3 {
+    font-size: 40px;
+    color: white;
+}
+#blog p {
+    font-size: 16px;
+}
+.btn-contactanos {
+    right: 0;
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    background: transparent;
+    border-width: 0;
+    cursor: pointer;
+    width: 224px;
+    height: 96px;
+}
+#lavadoras .intro-section {
+    height: 38vh;
+    min-height: 38vh;
+}
+#lavadoras h1
+{
+    font-size: 40px;
+    color: white;
+}
+#lavadoras .intro-section .row
+{
+    height: 212px;
+    min-height: 212px; 
+}
+.btn-contactanos:focus {
+    outline: none;
+}
+.btn-contactanos:not(.back-open) .open_, .btn-contactanos.back-open .close_ {
+    display: block;
+}
+.btn-contactanos:not(.back-open) .close_, .btn-contactanos.back-open .open_ {
+    display: none;
+}
+#opciones-contactanos .container-fluid .row .position-absolute {
+    right: 2.5rem;
+    top: 50vh;
+}
+#opciones-contactanos {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background: #00000042;
+    width: 100vw;
+    z-index: 1;
+}
+#opciones-contactanos .container-fluid, #opciones-contactanos .container-fluid .row {
+    width: 100vw;
+    height: 100vw;
+}
+#opciones-contactanos label {
+    font-size: 13px;
+    font-weight: 900;
+}
+#opciones-contactanos .container-fluid .row .position-absolute a {
+    cursor: pointer;
+}
+p>b {
+    font-weight: 900;
+    font-size: 25px;
+    color: #5863f8;
+}
+@media (max-width: 767px) {
+    .t-corrousel h3, #somos h2, #blog h3, #registrarmeModal h3 {
+        font-size: 30px;
+    }
+    .intro-section > .container {
+        padding-top: 0px;
+    }
+    #opciones-contactanos .container-fluid .row .position-absolute {
+        right: 1.5rem;
+        top: 55vh;
+    }
+    #section-2 {
+        padding-bottom: 5rem;
+    }
+    .modal-body {
+        padding: 1rem 1rem 0.5rem 1rem!important;
+    }
+    #registrarmeModal .close {
+        right: 1rem;
+        top: 1rem;
+        z-index: 1;
+    }
+    .intro-section, .intro-section .container .row {
+        min-height: 90vh;
+    }
+}
+@media (max-width: 991px) {    
+    .padding-xs {
+        padding-top: 2rem;
+    }  
+    .testimonial-item img {
+        width: 50%!important;
+    }
+    .testimonial-item {
+        display: flex;
+        justify-content: center;
+    }
+    .footer .row>div>h5 {
+        padding-top: 1rem;
+    }
+}
+@media (min-width: 992px){
+    .modal-lg, .modal-xl {
+        max-width: 800px;
+    }  
+}
+@media (min-width: 1200px){
+    .modal-xl {
+        max-width: 1140px;
+    }
+}
+@media (max-width: 1200px) {
+    #inicio .owl-dots {
+        transform: unset;
+        top: unset;
+        margin-left: auto;
+        margin-right: auto;
+        right: 0;
+        left: 0;
+    }
+}
+.site-beneficios {
+    padding: 0.8em 0; }
+@media (min-width: 768px) {
+    .site-beneficios {
+    padding: 2.3em 0 0; } }

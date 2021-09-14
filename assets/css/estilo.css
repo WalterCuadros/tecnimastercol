@@ -1,0 +1,19 @@
+.is-invalid~.invalid-feedback, .is-invalid~.invalid-tooltip, .was-validated :invalid~.invalid-feedback, .was-validated :invalid~.invalid-tooltip {
+	font-size: 12px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {	
+    background-color: #ffc107;
+}
+.card .card-header a.nav-link:hover {
+	background-color: #f3cd5d;
+	color: white;
+}
+.p-absolute {
+	position: absolute!important;
+}
+.t-15 {
+	top: 15px !important;
+}
+.backstretch {
+	opacity: 0.2;
+}
